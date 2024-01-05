@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    // if the type is any, its gonna help to highlight this but anyways if the type is specified as 'any', its not gonna yell    
+    "noImplicitAny": true,
+    "module": "ESNext",
+    // the type of specification to compile into(ES5) to help most browsers to support our code
+    "target": "es5",
+    "jsx": "react",
+    // allow compile not only ts files but also js
+    "allowJs": true,
+    "moduleResolution": "node",
+    // allow import things this way: import _ from 'lodash' instead of this const _ = require('lodash');
+    "esModuleInterop": true,
+    // allow import things this way: import _ from 'lodash' instead of this import * as _ from 'lodash'
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
