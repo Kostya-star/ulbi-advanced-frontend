@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "baseUrl": ".",
+    // "baseUrl": ".",
     // if the type is any, its gonna help to highlight this but anyways if the type is specified as 'any', its not gonna yell    
     "noImplicitAny": true,
     "module": "ESNext",
