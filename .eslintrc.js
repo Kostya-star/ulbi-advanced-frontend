@@ -2,7 +2,8 @@ module.exports = {
     "root": true, 
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "jest": true
     },
     "extends": [
         "standard-with-typescript",
@@ -50,7 +51,7 @@ module.exports = {
         'import/extensions': 'off',
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
-        // 'i18next/no-literal-string': ['error', { markupOnly: true }],
+        'i18next/no-literal-string': ['error', { markupOnly: true }],
         
         '@typescript-eslint/semi': 'off',
         '@typescript-eslint/member-delimiter-style': 'off',
@@ -60,6 +61,8 @@ module.exports = {
         '@typescript-eslint/prefer-nullish-coalescing': 'off',
         '@typescript-eslint/consistent-type-imports': 'off',
         '@typescript-eslint/naming-convention': 'off',
+        '@typescript-eslint/quotes': 'off',
+        '@typescript-eslint/comma-dangle': 'off',
     },
     "globals": {
         __IS_DEV__: true,
