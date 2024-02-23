@@ -1,6 +1,6 @@
 {
-  "Translation": "Перевод",
-  "Translation example": "Пример перевода",
   "Language": "Русский",
-  "Page not found": "Страница не найдена"
+  "Page not found": "Страница не найдена",
+  "Error occured": "Произошла ошибка",
+  "Reload Page": "Обновить страницу"
 }

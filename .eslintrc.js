@@ -52,7 +52,8 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'i18next/no-literal-string': ['error', { markupOnly: true }],
-        'max-len': ['error', { ignoreComments: true }],
+        // 'max-len': ['error', { ignoreComments: true }],
+        'max-len': 'off',
         
         '@typescript-eslint/semi': 'off',
         '@typescript-eslint/member-delimiter-style': 'off',
@@ -64,6 +65,7 @@ module.exports = {
         '@typescript-eslint/naming-convention': 'off',
         '@typescript-eslint/quotes': 'off',
         '@typescript-eslint/comma-dangle': 'off',
+        '@typescript-eslint/space-before-function-paren': 'off'
     },
     "globals": {
         __IS_DEV__: true,

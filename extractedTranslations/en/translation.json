@@ -1,6 +1,10 @@
 {
   "About Page": "About Page",
+  "Error occured": "Error occured",
   "Language": "Language",
   "Main Page": "Main Page",
-  "Page not found": "Page not found"
+  "Page not found": "Page not found",
+  "Reload Page": "Reload Page",
+  "Обновить страницу": "Обновить страницу",
+  "Произошла ошибка": "Произошла ошибка"
 }
