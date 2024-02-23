@@ -23,6 +23,13 @@
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
   // "include": ["./.eslintrc.js"]
+  "include": [
+    // "src/**/*.ts",
+    "src",
+    "./config/jest/jest.config.ts",
+    "./config/jest/setupTests.ts",
+    ".eslintrc.js"
+  ]
 }
