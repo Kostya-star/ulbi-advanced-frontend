@@ -22,8 +22,10 @@ export const Sidebar: FC<SidebarProps> = ({ className }) => {
         toggle
       </Button>
 
-      <ThemeSwitcher />
-      <LangSwitcher />
+      <div className={cls.switchers}>
+        <ThemeSwitcher />
+        <LangSwitcher />
+      </div>
     </div>
   );
 };
