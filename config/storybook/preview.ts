@@ -1,9 +1,13 @@
-import type { Preview } from "@storybook/react";
-import { StyleDecorator } from '../../src/shared/config/storybook/StyleDecorator/StyleDecorator.ts'
+import type { Preview } from '@storybook/react';
+import { StyleDecorator } from '../../src/shared/config/storybook/StyleDecorator/StyleDecorator.ts';
+import { ThemeDecorator } from '../../src/shared/config/storybook/ThemeDecorator/ThemeDecorator.tsx'
+import { RouterDecorator } from '../../src/shared/config/storybook/RouterDecorator/RouterDecorator.tsx'
+import { Theme } from '../../src/app/providers/ThemeProvider'
 
 const preview: Preview = {
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
+    // layout: 'fullscreen',
+    actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {
         color: /(background|color)$/i,
@@ -11,7 +15,7 @@ const preview: Preview = {
       },
     },
   },
-  decorators: [StyleDecorator],
+  decorators: [StyleDecorator, ThemeDecorator(Theme.LIGHT), RouterDecorator],
 };
 
 export default preview;
